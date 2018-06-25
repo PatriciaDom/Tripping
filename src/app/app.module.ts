@@ -5,7 +5,7 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './navbar/about.component';
 import { HomeComponent } from './navbar/home.component';
-import { routerConfig } from './mainComponent.config';
+import { routerConfig } from './appRouting.config';
 import { RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login/login.component';
 import { LogoutComponent } from './login/logout/logout.component';
