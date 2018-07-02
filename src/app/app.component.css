@@ -40,10 +40,12 @@
 
 nav{
 	background-color:#000000;
+
 }
 
 .navbar{
-	margin-bottom:15px;
+	overflow: hidden;
+	border-radius: 0px;
 }
 
 .logoStyle{
