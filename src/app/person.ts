@@ -4,6 +4,7 @@
 export class Person {
   id: number;
   name: string;
-  birthdate: Date;
+  password: string;
+  birthdate: string;
   email: string;
 }

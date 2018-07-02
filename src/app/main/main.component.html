@@ -9,21 +9,21 @@
 			<form method="post">
 				<p>Where do you start?</p>
 				<br>
-				<input type="text">
+				<input type="text"  [(ngModel)]="trip.origin">
 				
 				<p>Where are you going?</p>
 				<br>
-				<input type="text">
+				<input type="text" [(ngModel)]="trip.destiny">
 				
 				<p>Start Date</p>
 				<br>
-				<input type="date">
+				<input type="date" [(ngModel)]="trip.start_date">
 				
 				<p>End date</p>
 				<br>
-				<input type="date">
+				<input type="date" [(ngModel)]="trip.end_date">
 				<br>
-				<input type="submit" value="I'm Ready to Go">
+				<input type="submit" value="I'm Ready to Go" >
 			</form>
 		</div>
 
